@@ -13,7 +13,7 @@
 
 // https://github.com/Specta/Specta
 
-#import "NSData+Base64.h"
+#import <NIXTextEncoding/NSData+Base64.h>
 
 NSString *encode(NSString *text) {
     return [[text dataUsingEncoding:NSASCIIStringEncoding] nixEncodeBase64String];
