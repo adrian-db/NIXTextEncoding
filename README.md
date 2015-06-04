@@ -11,11 +11,11 @@ This provides a category on NSData for encoding and decoding data as base 64 str
 
 Encoding data as a string:
 
-NSString *base64String = [myData nixEncodeBase64String];
+    NSString *base64String = [myData nixEncodeBase64String];
 
 Decoding a string back into data:
 
-NSData *data = [NSData nixDecodeBase64String:base64String];
+    NSData *data = [NSData nixDecodeBase64String:base64String];
 
 The tests provide more examples if you need them.
 
