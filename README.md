@@ -7,7 +7,17 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+This provides a category on NSData for encoding and decoding data as base 64 strings.
+
+Encoding data as a string:
+
+NSString *base64String = [myData nixEncodeBase64String];
+
+Decoding a string back into data:
+
+NSData *data = [NSData nixDecodeBase64String:base64String];
+
+The tests provide more examples if you need them.
 
 ## Requirements
 
