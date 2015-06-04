@@ -1,6 +1,0 @@
-framework module NIXTextEncoding {
-  umbrella header "Pods-NIXTextEncoding_Tests-NIXTextEncoding-umbrella.h"
-
-  export *
-  module * { export * }
-}
