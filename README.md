@@ -1,6 +1,6 @@
 # NIXTextEncoding
 
-[![CI Status](http://img.shields.io/travis/Adrian Bigland/NIXTextEncoding.svg?style=flat)](https://travis-ci.org/Adrian Bigland/NIXTextEncoding)
+[![CI Status](http://img.shields.io/travis/adrian-db/NIXTextEncoding.svg?style=flat)](https://travis-ci.org/Adrian Bigland/NIXTextEncoding)
 [![Version](https://img.shields.io/cocoapods/v/NIXTextEncoding.svg?style=flat)](http://cocoapods.org/pods/NIXTextEncoding)
 [![License](https://img.shields.io/cocoapods/l/NIXTextEncoding.svg?style=flat)](http://cocoapods.org/pods/NIXTextEncoding)
 [![Platform](https://img.shields.io/cocoapods/p/NIXTextEncoding.svg?style=flat)](http://cocoapods.org/pods/NIXTextEncoding)
