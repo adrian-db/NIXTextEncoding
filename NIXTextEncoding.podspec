@@ -9,10 +9,10 @@
 
 Pod::Spec.new do |s|
   s.name             = "NIXTextEncoding"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Implements the Base64 encoding and decoding described in RFC 4748."
   s.homepage         = "https://github.com/adrian-db/NIXTextEncoding"
-  s.license          = 'Apache'
+  s.license          = 'Apache License, Version 2.0'
   s.author           = { "Adrian David Bigland" => "a.d.bigland@gmail.com" }
   s.source           = { :git => "https://github.com/adrian-db/NIXTextEncoding.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/adrian_bigland'
