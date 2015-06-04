@@ -10,29 +10,19 @@
 Pod::Spec.new do |s|
   s.name             = "NIXTextEncoding"
   s.version          = "0.1.0"
-  s.summary          = "A short description of NIXTextEncoding."
-  s.description      = <<-DESC
-                       An optional longer description of NIXTextEncoding
+  s.summary          = "Implements the Base64 encoding and decoding described in RFC 4748."
+  s.homepage         = "https://github.com/adrian-db/NIXTextEncoding"
+  s.license          = 'Apache'
+  s.author           = { "Adrian David Bigland" => "a.d.bigland@gmail.com" }
+  s.source           = { :git => "https://github.com/adrian-db/NIXTextEncoding.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/adrian_bigland'
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/NIXTextEncoding"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "Adrian Bigland" => "a.d.bigland@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/NIXTextEncoding.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
+  s.platform     = :ios, '4.3'
+  s.requires_arc = false
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
     'NIXTextEncoding' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

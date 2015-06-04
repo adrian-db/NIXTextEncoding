@@ -26,4 +26,4 @@ Adrian Bigland, a.d.bigland@gmail.com
 
 ## License
 
-NIXTextEncoding is available under the MIT license. See the LICENSE file for more info.
+NIXTextEncoding is available under the Version 2.0 Apache License. See the LICENSE file for more info.
