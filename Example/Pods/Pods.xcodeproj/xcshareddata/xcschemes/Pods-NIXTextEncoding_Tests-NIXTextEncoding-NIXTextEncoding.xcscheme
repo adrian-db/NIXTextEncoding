@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BECAE86FB8B4A62AE0B94DF7"
+               BlueprintIdentifier = "42A6A4F593504D1FB3E6BBB7"
                BuildableName = "NIXTextEncoding.bundle"
                BlueprintName = "Pods-NIXTextEncoding_Tests-NIXTextEncoding-NIXTextEncoding"
                ReferencedContainer = "container:Pods.xcodeproj">
